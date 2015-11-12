@@ -41,7 +41,7 @@ router.post('/addtask', function(req,res) {
 	});
 });
 
-router.get('/completeTask', function(req,res) {
+router.post('/completeTask', function(req,res) {
 	var self = this;
 	var completedTasks = Object.keys(req.body);
 	async.forEach(completedTasks, function taskIterator(completedTask, callback) {

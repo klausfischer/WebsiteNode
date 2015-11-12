@@ -2,19 +2,19 @@
 
 This is the sample project [Node.js web app using the Azure Table Service](https://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-use-table-storage-web-site/) done with [express-generator@4.13.1](https://www.npmjs.com/package/express-generator) and [bootstrap#4.0.0-alpha](https://github.com/twbs/bootstrap) available via [bower.io](http://www.bower.io) although statically included (ugly) now.
 
-# Installation
+## Installation
 
 - clone the repo
 - ``cd WebsiteNode``
 - ``npm install`` 
 - create a file ``config.json`` in the *parent* directory of ``WebsiteNode`` for local development (see [this section](https://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-use-table-storage-web-site/#create-a-config-file)) to connect to your Azure Storage Account (i guess your account data shouldn't be versioned, that's why it's in the parent dir)
 
-# Developing locally
+## Developing locally
 
 - ``npm run-script dev`` (see what it does in the ``package.json``)
 - open your browser: ``http://localhost:3000``
 
-# Deploy on Azure cloud
+## Deploy on Azure cloud
 
 - after cloning the repo setup a Git remote called ``azure`` and wire it up correctly following [this guide](https://azure.microsoft.com/en-us/documentation/articles/storage-nodejs-use-table-storage-web-site/#deploy-your-application-to-azure)
 - have an eye on the log messages when pushing to the ``azure`` branch, you might encounter useful help there. 
@@ -23,6 +23,6 @@ This is the sample project [Node.js web app using the Azure Table Service](https
 - to disable error messages edit `ìisnode.yml``
 
 
-# Logging
+## Logging
 
 - On the [portal](http://portal.azure.com) navigate into your web app - Settings - Diagnostic logs where you can enable them

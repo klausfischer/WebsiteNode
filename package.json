@@ -1,8 +1,8 @@
 {
   "name": "WebsiteNode",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
-  "engine": "node 4.2.1",
+  //"engine": "node 4.2.1",
   "scripts": {
     "start": "node ./bin/www"
   },

@@ -1,8 +1,8 @@
 # For documentation see https://github.com/tjanczuk/iisnode/blob/master/src/samples/configuration/iisnode.yml
 
-# loggingEnabled: false
-# debuggingEnabled: false
-# devErrorsEnabled: false
+loggingEnabled: true
+debuggingEnabled: true
+devErrorsEnabled: true
 # node_env: production
 # nodeProcessCountPerApplication: 1
 # maxConcurrentRequestsPerProcess: 1024
@@ -13,10 +13,10 @@
 # asyncCompletionThreadCount: 0
 # initialRequestBufferSize: 4096
 # maxRequestBufferSize: 65536
-# watchedFiles: *.js;iisnode.yml;node_modules\*
+watchedFiles: *.js;iisnode.yml;node_modules\*
 # uncFileChangesPollingInterval: 5000
 # gracefulShutdownTimeout: 60000
-# logDirectoryNameSuffix: logs
+logDirectoryNameSuffix: logs
 # debuggerPortRange: 5058-6058
 # debuggerPathSegment: debug
 # maxLogFileSizeInKB: 128

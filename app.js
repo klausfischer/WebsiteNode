@@ -30,12 +30,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // wire routes
-var routes = require('./routes/index');
+// var routes = require('./routes/index');
 // var users = require('./routes/users');
 var tasks = require('./routes/tasks');
 
-// app.use('/', tasks);
-app.use('/', routes);
+app.use('/', tasks);
+// app.use('/', routes);
 // app.use('/users', users);
 
 // catch 404 and forward to error handler

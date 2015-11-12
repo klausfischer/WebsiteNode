@@ -3,3 +3,4 @@ bower_components
 bin
 azure.err
 *.publishsettings
+.npm-debug.log

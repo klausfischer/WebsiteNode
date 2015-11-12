@@ -2,7 +2,6 @@
   "name": "WebsiteNode",
   "version": "0.0.1",
   "private": true,
-  "engine": "node 0.10.32",
   "scripts": {
     "start": "node ./bin/www"
   },
